@@ -1,5 +1,4 @@
 import qrcode
-data = """Hi, my name is Yashi Srivastava,This is my first QR code project"""
+data = "https://yasiisrivastava-ctrl.github.io/qr-code-project/"
 img = qrcode.make(data)
 img.save("my_qr.png")
-print("QR Code Generated!")
